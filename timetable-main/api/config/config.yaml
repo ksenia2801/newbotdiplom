@@ -1,0 +1,221 @@
+endpoint:
+  host: 127.0.0.1
+  port: 8080
+logger:
+  level: info
+database:
+  dsn: 'postgresql://postgres:1234@localhost:5432/userdb'
+  type: 'postgres'
+  faculties:
+    - name: aspirantura
+      tag: aspirantura
+    - name: radioconstruct faculty
+      tag: rkf
+    - name: faculty of control system
+      tag: fsu
+    - name: faculty of innovation technology
+      tag: fit
+    - name: faculty of Humanities
+      tag: gf
+    - name: security faculty
+      tag: fb
+    - name: radiotechnics faculty
+      tag: rtf
+    - name: faculty of Computing Systems
+      tag: fvs
+    - name: faculty of electronics
+      tag: fet
+    - name: faculty of economics
+      tag: ef
+    - name: faculty of law
+      tag: yuf
+    - name: correspondence faculty
+      tag: zivf
+  groups:
+    - course: 1
+      items:
+        - 111
+        - 111-m1
+        - 121-1
+        - 121-2
+        - 121-3
+        - 141-1
+        - 141-2
+        - 141-3
+        - 141-4
+        - 141-m2
+        - 141-m3
+        - 141-m4
+        - 141-m5
+        - 151
+        - 151-m
+        - 161
+        - 161-m
+        - 181-m
+        - 1a1
+        - 1a1-m
+        - 1v1
+        - 1v1-m
+        - 201-1
+        - 201-2
+        - 211
+        - 221-1
+        - 221-2
+        - 231-1
+        - 231-2
+        - 231-3
+        - 231-4
+        - 231-5
+        - 231-6
+        - 261-М1
+        - 261-М2
+        - 271-М1
+        - 271-М2
+        - v-51b
+        - v-51p
+        - v-51u
+        - v-51up
+        - v-51e
+        - v-s51-1
+        - z-11
+        - z-31-1
+        - z-31-2
+        - z-41
+        - z-61
+        - z-71b
+        - z-81
+        - z-91e-1
+        - z-m51
+        - z-m51e
+        - z-m61
+    - course: 2
+      items:
+        - 200
+        - 210
+        - 220
+        - 230-1
+        - 230-2
+        - 230-3
+        - 230-4
+        - z-10
+        - z-20a
+        - z-20u
+        - z-30-1
+        - z-40
+        - z-50b-1
+        - z-50p
+        - z-50u
+        - z-50up-1
+        - z-50e
+        - z-60
+        - z-70b
+        - z-80
+        - z-90e-1
+        - z-m50
+        - z-m50e
+        - z-m60
+        - z-s50-1
+    - course: 3
+      items:
+        - 209
+        - 219-1
+        - 219-2
+        - 229-1
+        - 239-1
+        - 239-2
+        - 239-3
+        - z-19
+        - z-29a
+        - z-29u
+        - z-39-1
+        - z-39-2
+        - z-49
+        - z-59b-1
+        - z-59p-1
+        - z-59up
+        - z-59e-1
+        - z-69
+        - z-79b
+        - z-89
+        - z-99e-1
+        - z-m59-1
+    - course: 4
+      items:
+        - 208
+        - 218-1
+        - 218-2
+        - 228-1
+        - 238-1
+        - 238-2
+        - 238-3
+    - course: 5
+      items:
+        - z-17
+        - z-27a
+        - z-27u
+        - z-37
+        - z-47
+        - z-57b
+        - z-57p
+        - z-57up
+        - z-57e
+        - z-67
+        - z-77b
+        - z-87
+        - z-97e
+    - course: 6
+      items:
+        - z-76b
+  days:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+  time_cells:
+    - cell_num: 1
+      from: "08:50"
+      to: "10:25"
+    - cell_num: 2
+      from: "10:40"
+      to: "12:15"
+    - cell_num: 3
+      from: "13:15"
+      to: "14:50"
+    - cell_num: 4
+      from: "15:00"
+      to: "16:35"
+    - cell_num: 5
+      from: "16:45"
+      to: "18:20"
+    - cell_num: 6
+      from: "18:30"
+      to: "20:05"
+    - cell_num: 7
+      from: "20:15"
+      to: "21:50"
+  discipline_types:
+    - 'training/prod practice'
+    - 'lectures'
+    - 'practical'
+    - 'laboratory'
+    - 'course work'
+    - 'course design'
+    - 'examine'
+    - 'graded examine'
+    - 'self work'
+    - 'Лабораторная работа'
+    - 'Лекция'
+    - 'Практическое занятие'
+    - 'Практика'
+    - 'Курсовая работа'
+    - 'Курсовое проектирование'
+    - 'Зачет'
+    - 'Зачет с оценкой'
+    - 'Экзамен'
+    - 'Самостоятельная работа'
+
+
+
